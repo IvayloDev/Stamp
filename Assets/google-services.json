@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "385798430792",
+    "project_id": "stamp-17253",
+    "storage_bucket": "stamp-17253.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385798430792:android:b90e108868217f1a09f87d",
+        "android_client_info": {
+          "package_name": "com.paltech.stamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385798430792-8vifpqbav8rq2uabmcm5vhsgh2o5o545.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbECN07FJKpcnqmPxm0UHgtxMyo78ZlmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385798430792-8vifpqbav8rq2uabmcm5vhsgh2o5o545.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "385798430792-o76sr5jls9s8eeto89hg38kdvu2lvacb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.paltech.stamp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
