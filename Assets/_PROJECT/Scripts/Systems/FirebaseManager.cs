@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Firebase;
 using Firebase.Analytics;
 using Firebase.Auth;
+using Google;
 using Managers;
 using TMPro;
 using UnityEngine;
@@ -50,9 +51,10 @@ namespace _PROJECT.Scripts.Systems
             }
         }
 
-        public void Logout()
+        public void SignOut()
         {
-            auth.SignOut();
+            GoogleSignIn.DefaultInstance.SignOut();
+            FirebaseAuth.DefaultInstance.SignOut();
         }
 
     }

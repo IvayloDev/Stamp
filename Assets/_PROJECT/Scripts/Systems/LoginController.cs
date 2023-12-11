@@ -47,6 +47,11 @@ namespace _PROJECT.Scripts.Systems
             StartCoroutine(Register(emailRegisterField.text, passwordRegisterField.text, usernameRegisterField.text));
         }
 
+        public void GoogleLoginButton()
+        {
+            FirebaseGoogleSignIn.Instance.GoogleSignInButtonClick();
+        }
+        
         private IEnumerator Login(string _email, string _password)
         {
             //Call the Firebase auth signin function passing the email and password
@@ -93,7 +98,7 @@ namespace _PROJECT.Scripts.Systems
                 errorMessageText.text = "";
             }
         }
-
+        
         private IEnumerator Register(string _email, string _password, string _username)
         {
             Match match = emailRegex.Match(_email);
