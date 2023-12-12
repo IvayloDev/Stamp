@@ -19,13 +19,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/GoogleSignInStatusCode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/GoogleSignInConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/DataModels/Places.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/google-services.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SignInSample/SigninSampleScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/GoogleSignInUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/Future.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/JsonHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Consts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/FirebaseGoogleSignIn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/FirebaseManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -37,10 +42,15 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/SignInSample/SigninSampleScript.cs" />
         <option value="$PROJECT_DIR$/Assets/google-services.json" />
-        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/FirebaseGoogleSignIn.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/LoginController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/HomeController.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/FirebaseManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/FirebaseGoogleSignIn.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Consts.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/DataModels/Places.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/JsonHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/HomeController.cs" />
       </list>
     </option>
   </component>
@@ -63,10 +73,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="87868">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="87868" />
       <method v="2" />
     </configuration>
   </component>
@@ -80,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702043214647</updated>
-      <workItem from="1702043243119" duration="7347000" />
+      <workItem from="1702043243119" duration="9682000" />
     </task>
     <servers />
   </component>

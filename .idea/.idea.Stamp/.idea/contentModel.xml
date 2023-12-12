@@ -18,8 +18,17 @@
           <e p="Prefabs" t="Include" />
           <e p="Scenes" t="Include" />
           <e p="Scripts" t="Include">
+            <e p="Consts.cs" t="Include" />
             <e p="HomeController.cs" t="Include" />
             <e p="MonoBehaviourSingleton.cs" t="Include" />
+            <e p="Network" t="Include">
+              <e p="DataModels" t="Include">
+                <e p="Places.cs" t="Include" />
+              </e>
+              <e p="JsonHelper.cs" t="Include" />
+              <e p="NetworkController.cs" t="Include" />
+              <e p="NetworkManager.cs" t="Include" />
+            </e>
             <e p="SplashController.cs" t="Include" />
             <e p="Systems" t="Include">
               <e p="Client.cs" t="Include" />
@@ -108,9 +117,6 @@
             <e p="NativeFuture.cs" t="Include" />
             <e p="SignInHelperObject.cs" t="Include" />
           </e>
-        </e>
-        <e p="PlayServicesResolver" t="Include">
-          <e p="Editor" t="Include" />
         </e>
         <e p="Plugins" t="Include">
           <e p="Android" t="Include" />
