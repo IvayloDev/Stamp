@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class Places
+public class Place
 {
     public int id { get; set; }
     public DateTime createdAt { get; set; }

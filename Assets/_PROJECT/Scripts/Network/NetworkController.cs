@@ -6,14 +6,14 @@ using UnityEngine;
 
 public static class NetworkController
 {
-    public static async Task<Places[]> GetAllPlaces()
+    public static async Task<Place[]> GetAllPlaces()
     {
         var entriesSerialized = await NetworkManager.Instance.Get
         (
             Consts.GetPlacesEndpoint
         );
         
-        Places[] placesDesirialized = JsonHelper.getJsonArray<Places>(entriesSerialized);
+        Place[] placesDesirialized = JsonHelper.getJsonArray<Place>(entriesSerialized);
         return placesDesirialized;
     }
     

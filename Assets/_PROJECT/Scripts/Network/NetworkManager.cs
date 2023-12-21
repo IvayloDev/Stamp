@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -74,6 +75,29 @@ public class NetworkManager : MonoBehaviourSingletonPersistent<NetworkManager>
     public async Task<string> Put(string path, object data = null)
     {
         return await SendServerRequest(path, RequestType.PUT, data: data);
+    }
+    
+    public async Task<Texture2D> DownloadImage(string url)
+    {
+        using (UnityWebRequest webRequest = UnityWebRequestTexture.GetTexture(url))
+        {
+            var asyncOperation = webRequest.SendWebRequest();
+
+            while (!asyncOperation.isDone)
+            {
+                await Task.Yield(); // Yield control until the operation is done
+            }
+
+            if (webRequest.result == UnityWebRequest.Result.Success)
+            {
+                return ((DownloadHandlerTexture)webRequest.downloadHandler).texture;
+            }
+            else
+            {
+                Debug.LogError("Failed to download image. Error: " + webRequest.error);
+                return null;
+            }
+        }
     }
     
     

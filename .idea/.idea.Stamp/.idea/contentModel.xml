@@ -20,14 +20,21 @@
           <e p="Scripts" t="Include">
             <e p="Consts.cs" t="Include" />
             <e p="HomeController.cs" t="Include" />
+            <e p="Main Menu" t="Include">
+              <e p="NavBarNavigation.cs" t="Include" />
+            </e>
             <e p="MonoBehaviourSingleton.cs" t="Include" />
             <e p="Network" t="Include">
               <e p="DataModels" t="Include">
-                <e p="Places.cs" t="Include" />
+                <e p="Place.cs" t="Include" />
               </e>
               <e p="JsonHelper.cs" t="Include" />
               <e p="NetworkController.cs" t="Include" />
               <e p="NetworkManager.cs" t="Include" />
+            </e>
+            <e p="PlacesController.cs" t="Include" />
+            <e p="Prefabs" t="Include">
+              <e p="PlaceComponent.cs" t="Include" />
             </e>
             <e p="SplashController.cs" t="Include" />
             <e p="Systems" t="Include">

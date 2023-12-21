@@ -11,7 +11,7 @@ public class PlacesController : MonoBehaviour
     [SerializeField]
     private Transform placesParentTransform;
     
-    private Places[] places;
+    private Place[] places;
     
     // Start is called before the first frame update
     void Start()
@@ -25,8 +25,12 @@ public class PlacesController : MonoBehaviour
 
         for (int i = 0; i < places.Length; i++)
         {
+            if (i >= 10)
+                break;
+            
             GameObject _place = Instantiate(activePlacePrefab, Vector3.zero, Quaternion.identity, placesParentTransform);
             _place.transform.SetParent(placesParentTransform, false);
+            _place.GetComponent<PlaceComponent>()?.Initialize(places[i]);
         }
         
     }
