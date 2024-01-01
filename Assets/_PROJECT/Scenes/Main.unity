@@ -1774,6 +1774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2aaca000bfa06684593ec509ce587284, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultActiveTabIndex: 1
   tabElements:
   - tabImage: {fileID: 814169466}
     tabNameGO: {fileID: 119293994}

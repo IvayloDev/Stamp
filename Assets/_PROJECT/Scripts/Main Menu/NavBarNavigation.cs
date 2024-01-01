@@ -6,12 +6,16 @@ using UnityEngine.UI;
 
 public class NavBarNavigation : MonoBehaviour
 {
+
+    [SerializeField]
+    private int defaultActiveTabIndex;
+    
     [SerializeField]
     private TabElement[] tabElements;
 
     void Start()
     {
-        SetActiveTab(1);
+        SetActiveTab(defaultActiveTabIndex);
     }
 
     public void OnTabElementClick(int index)
