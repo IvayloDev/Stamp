@@ -43,5 +43,10 @@ public class PlaceComponent : MonoBehaviour
     {
         Application.OpenURL("http://maps.google.com/maps?q=" + "42.14945613239546, 24.748751638915294");
     }
+
+    public void OnOpenCardViewClick()
+    {
+        UIManager.GoToPlaceView(currentPlace);
+    }
     
 }

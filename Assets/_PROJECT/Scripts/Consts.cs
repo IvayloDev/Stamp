@@ -9,5 +9,8 @@ public static class Consts
 
     public const string GetUsersEndpoint = ServerUrl + "/users";
     public const string GetPlacesEndpoint = ServerUrl + "/places";
+    
+    //Scenes
+    public const string LoaderPanelSceneName = "LoaderScene";
 
 }

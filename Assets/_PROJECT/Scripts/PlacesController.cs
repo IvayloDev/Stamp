@@ -11,6 +11,9 @@ public class PlacesController : MonoBehaviour
     [SerializeField]
     private Transform placesParentTransform;
     
+    [SerializeField]
+    private GameObject activePlaceGO;
+    
     private Place[] places;
     
     // Start is called before the first frame update
@@ -32,7 +35,11 @@ public class PlacesController : MonoBehaviour
             _place.transform.SetParent(placesParentTransform, false);
             _place.GetComponent<PlaceComponent>()?.Initialize(places[i]);
         }
-        
+    }
+
+    public void OpenAndPopulatePlaceView()
+    {
+        activePlaceGO.SetActive(true);
     }
    
 }

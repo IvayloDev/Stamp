@@ -21,8 +21,12 @@
           <e p="Scripts" t="Include">
             <e p="Consts.cs" t="Include" />
             <e p="HomeController.cs" t="Include" />
+            <e p="LoadingPanel.cs" t="Include" />
             <e p="Main Menu" t="Include">
               <e p="NavBarNavigation.cs" t="Include" />
+              <e p="Places" t="Include">
+                <e p="ActivePlaceScreen.cs" t="Include" />
+              </e>
             </e>
             <e p="MonoBehaviourSingleton.cs" t="Include" />
             <e p="Network" t="Include">
@@ -44,6 +48,34 @@
               <e p="FirebaseManager.cs" t="Include" />
               <e p="LoginController.cs" t="Include" />
               <e p="UIManager.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="distriqt" t="Include">
+          <e p="Common" t="Include">
+            <e p="Android" t="Include" />
+          </e>
+          <e p="NFCUnity" t="Include">
+            <e p="NFC" t="Include">
+              <e p="Android" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="NFCConfig.cs" t="Include" />
+                <e p="NFCScripts.cs" t="Include" />
+              </e>
+              <e p="events" t="Include">
+                <e p="NFCEvent.cs" t="Include" />
+              </e>
+              <e p="iOS" t="Include" />
+              <e p="NdefMessage.cs" t="Include" />
+              <e p="NdefRecord.cs" t="Include" />
+              <e p="NFC.cs" t="Include" />
+              <e p="NFCConst.cs" t="Include" />
+              <e p="ScanOptions.cs" t="Include" />
+              <e p="Tag.cs" t="Include" />
+            </e>
+            <e p="NFCExample" t="Include">
+              <e p="ExampleScript.cs" t="Include" />
+              <e p="images" t="Include" />
             </e>
           </e>
         </e>

@@ -20,9 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b668b17b-35fa-4afc-99ad-236980652183" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/LoadingPanel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/LoadingPanel.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/NavBarNavigation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/NavBarNavigation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Prefabs/Active Place Prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Prefabs/Active Place Prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Consts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Consts.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/PlacesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/PlacesController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Prefabs/PlaceComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Prefabs/PlaceComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/SplashController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/SplashController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/UIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/distriqt/NFCUnity/NFCExample/ExampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/distriqt/NFCUnity/NFCExample/ExampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,25 +47,31 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/PlacesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/GoogleSignInStatusCode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/GoogleSignInConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/DataModels/Place.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/google-services.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SignInSample/SigninSampleScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/Places/ActivePlaceScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/GoogleSignInUser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/Future.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/JsonHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/distriqt/NFCUnity/NFC/NFC.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Prefabs/PlaceComponent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Consts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/FirebaseGoogleSignIn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/NavBarNavigation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/DataModels/Place.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/JsonHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/LoadingPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/SplashController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Consts.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/FirebaseManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GoogleSignIn/GoogleSignIn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/MonoBehaviourSingleton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/LoginController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/distriqt/NFCUnity/NFCExample/ExampleScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -63,16 +81,20 @@
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/LoginController.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/FirebaseManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/FirebaseGoogleSignIn.cs" />
-        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Consts.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/DataModels/Places.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/JsonHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/HomeController.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/DataModels/Place.cs" />
-        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/PlacesController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Prefabs/PlaceComponent.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/NavBarNavigation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Consts.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Network/NetworkManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/LoadingPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/SplashController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Prefabs/PlaceComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/PlacesController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/Places/ActivePlaceScreen.cs" />
       </list>
     </option>
   </component>
@@ -115,7 +137,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702043214647</updated>
       <workItem from="1702043243119" duration="11192000" />
-      <workItem from="1702574607509" duration="5658000" />
+      <workItem from="1702574607509" duration="11016000" />
     </task>
     <servers />
   </component>
@@ -207,9 +229,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="227" y="-7" width="1413" height="1037" maximized="true" key="dock-window-1/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1702321548420" />
-    <state x="-1353" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1702043351639">
-      <screen x="-1920" y="0" width="1920" height="1050" />
+    <state x="2487" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1704210552332">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
     <state x="-1353" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@-1920.0.1920.1050" timestamp="1702043351639" />
+    <state x="2487" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/-1920.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1704210552332" />
   </component>
 </project>
