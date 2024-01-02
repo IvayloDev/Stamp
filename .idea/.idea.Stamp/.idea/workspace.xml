@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b668b17b-35fa-4afc-99ad-236980652183" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scenes/Main.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/NavBarNavigation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/NavBarNavigation.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702043214647</updated>
       <workItem from="1702043243119" duration="11192000" />
-      <workItem from="1702574607509" duration="3421000" />
+      <workItem from="1702574607509" duration="5658000" />
     </task>
     <servers />
   </component>

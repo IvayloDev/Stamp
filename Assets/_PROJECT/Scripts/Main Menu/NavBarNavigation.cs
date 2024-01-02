@@ -1,6 +1,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -47,18 +49,21 @@ public class TabElement
     public Color defaultColor;
     public Color highlightedColor;
 
-    public void DisableTab(TabElement tab)
-    {
-        tab.screenGO.SetActive(false);
-        tab.tabImage.color = tab.defaultColor;
-        tab.tabNameGO.SetActive(false);
-    }
-
     public void EnableTab(TabElement tab)
     {
         tab.screenGO.SetActive(true);
-        tab.tabImage.color = tab.highlightedColor;
-        tab.tabNameGO.SetActive(true);
+        tab.tabImage.DOColor(tab.highlightedColor, 0.25f);
+        tab.tabNameGO.GetComponent<TextMeshProUGUI>().DOColor(Color.white, 0.25f);
     }
+    
+    public void DisableTab(TabElement tab)
+    {
+        tab.screenGO.SetActive(false);
+        tab.tabImage.DOColor(tab.defaultColor, 0.25f);
+        tab.tabNameGO.GetComponent<TextMeshProUGUI>().DOColor(Color.clear, 0.1f);
+
+    }
+
+    
     
 }
