@@ -9,23 +9,17 @@ public class LoadingPanel : MonoBehaviour
 
     void Start()
     {
-        NetworkManager.onAwaitingResponse += OnAwaitingResponse;
+        NetworkManager.OnAwaitingResponse += OnAwaitingResponse;
     }
 
     private void OnDestroy()
     {
-        NetworkManager.onAwaitingResponse -= OnAwaitingResponse;
+        NetworkManager.OnAwaitingResponse -= OnAwaitingResponse;
     }
     
     private void OnAwaitingResponse(bool response)
     {
-        AwaitingResponse(response);
-    }
-
-    void AwaitingResponse(bool response)
-    {
         loadingPanelGO.SetActive(response);
     }
-
 
 }

@@ -9,7 +9,7 @@ using UnityEngine.Networking;
 
 public class NetworkManager : MonoBehaviourSingletonPersistent<NetworkManager>
 {
-    public static event Action<bool> onAwaitingResponse;
+    public static event Action<bool> OnAwaitingResponse;
 
     private UnityWebRequest CreateRequest(string path, RequestType type = RequestType.GET, object data = null)
         {
@@ -31,8 +31,7 @@ public class NetworkManager : MonoBehaviourSingletonPersistent<NetworkManager>
     
     public async Task<string> SendServerRequest(string path, RequestType type, object data = null)
     {
-        onAwaitingResponse?.Invoke(true);
-        Debug.Log("pone tuka de :D");
+        OnAwaitingResponse?.Invoke(true);
         
         var request = CreateRequest(path, type, data);
         Debug.Log($"Sending {type} request to {path}");
@@ -52,10 +51,9 @@ public class NetworkManager : MonoBehaviourSingletonPersistent<NetworkManager>
             );
                 
             // handle the error
-            
             Debug.LogError("error: " + request);
             
-            onAwaitingResponse?.Invoke(false);
+            OnAwaitingResponse?.Invoke(false);
 
             return null;
             //TODO return await NetworkErrorHandler.ServerRequestErrorHandler(endpoint, request);
@@ -66,7 +64,7 @@ public class NetworkManager : MonoBehaviourSingletonPersistent<NetworkManager>
             var response = request.downloadHandler.text;
             request.Dispose();
             
-            onAwaitingResponse?.Invoke(false);
+            OnAwaitingResponse?.Invoke(false);
 
             return response;
         }
