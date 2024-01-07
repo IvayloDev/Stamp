@@ -1,25 +1,25 @@
 ﻿using System;
+using Managers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class UIManager : MonoBehaviour
+public class UIManager : MonoBehaviourSingletonPersistent<UIManager>
 {
     static PageEnum currentPage = PageEnum.Login;
-    public static event Action<Place> OnDisplayPlace;
+    public event Action<Place, Sprite> OnDisplayPlace;
+    
 
-
-    public static void DisplayPlaceView(Place place)
+    public void DisplayPlaceView(Place place, Sprite placeImage)
     {
-        Debug.Log(place.id);
-        OnDisplayPlace?.Invoke(place);
+        OnDisplayPlace?.Invoke(place, placeImage);
     }
     
     public static void GoToPage(PageEnum page)
     {
-        UnloadAllScenes();
-        
         SceneManager.LoadScene(page.ToString(), LoadSceneMode.Additive);
         
+        UnloadAllScenes();
+
         currentPage = page;
     }
 

@@ -46,7 +46,7 @@ public class PlaceComponent : MonoBehaviour
 
     public void OnOpenCardViewClick()
     {
-        UIManager.DisplayPlaceView(currentPlace);
+        UIManager.Instance.DisplayPlaceView(currentPlace, placeImage.sprite);
     }
     
 }

@@ -11,6 +11,7 @@
           <e p="Graphics" t="Include">
             <e p="Home Page Graphics" t="Include">
               <e p="Nav Bar Graphics" t="Include" />
+              <e p="Places Graphics" t="Include" />
             </e>
             <e p="Login Page Graphics" t="Include" />
             <e p="Ref Pics" t="Include" />
@@ -24,6 +25,7 @@
             <e p="LoadingPanel.cs" t="Include" />
             <e p="Main Menu" t="Include">
               <e p="NavBarNavigation.cs" t="Include" />
+              <e p="NotificationsController.cs" t="Include" />
               <e p="Places" t="Include">
                 <e p="ActivePlaceScreen.cs" t="Include" />
               </e>
