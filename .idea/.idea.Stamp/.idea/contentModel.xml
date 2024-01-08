@@ -21,6 +21,7 @@
           <e p="Scenes" t="Include" />
           <e p="Scripts" t="Include">
             <e p="Consts.cs" t="Include" />
+            <e p="DeepLinkingManager.cs" t="Include" />
             <e p="HomeController.cs" t="Include" />
             <e p="LoadingPanel.cs" t="Include" />
             <e p="Main Menu" t="Include">
@@ -28,6 +29,7 @@
               <e p="NotificationsController.cs" t="Include" />
               <e p="Places" t="Include">
                 <e p="ActivePlaceScreen.cs" t="Include" />
+                <e p="PlacesController.cs" t="Include" />
               </e>
             </e>
             <e p="MonoBehaviourSingleton.cs" t="Include" />
@@ -39,7 +41,6 @@
               <e p="NetworkController.cs" t="Include" />
               <e p="NetworkManager.cs" t="Include" />
             </e>
-            <e p="PlacesController.cs" t="Include" />
             <e p="Prefabs" t="Include">
               <e p="PlaceComponent.cs" t="Include" />
             </e>
@@ -49,8 +50,10 @@
               <e p="FirebaseGoogleSignIn.cs" t="Include" />
               <e p="FirebaseManager.cs" t="Include" />
               <e p="LoginController.cs" t="Include" />
+              <e p="NFCManager.cs" t="Include" />
               <e p="UIManager.cs" t="Include" />
             </e>
+            <e p="Utils.cs" t="Include" />
           </e>
         </e>
         <e p="distriqt" t="Include">
@@ -161,7 +164,9 @@
           </e>
         </e>
         <e p="Plugins" t="Include">
-          <e p="Android" t="Include" />
+          <e p="Android" t="Include">
+            <e p="AndroidManifest.xml" t="Include" />
+          </e>
           <e p="Demigiant" t="Include">
             <e p="DOTween" t="Include">
               <e p="Editor" t="Include">

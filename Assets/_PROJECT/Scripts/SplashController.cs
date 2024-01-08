@@ -14,7 +14,7 @@ public class SplashController : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(Consts.LoaderPanelSceneName, LoadSceneMode.Additive);
 
-        Application.targetFrameRate = 60;
+        Application.targetFrameRate = 120;
     }
     
     public void Continue()

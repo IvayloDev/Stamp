@@ -30,12 +30,13 @@ public class PlaceComponent : MonoBehaviour
 
     private async Task SetImage()
     {
-        Texture2D texture = await NetworkManager.Instance.DownloadImage("https://picsum.photos/200");
+        Texture2D texture = await NetworkManager.Instance.DownloadImage($"https://picsum.photos/id/{currentPlace.id}/200/200");
 
         if (placeImage != null)
         {
             Sprite sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
             placeImage.sprite = sprite;
+            currentPlace.placeSprite = sprite;
         }
     }
 
@@ -46,7 +47,7 @@ public class PlaceComponent : MonoBehaviour
 
     public void OnOpenCardViewClick()
     {
-        UIManager.Instance.DisplayPlaceView(currentPlace, placeImage.sprite);
+        UIManager.Instance.DisplayPlaceView(currentPlace);
     }
     
 }

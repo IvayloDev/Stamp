@@ -12,5 +12,8 @@ public static class Consts
     
     //Scenes
     public const string LoaderPanelSceneName = "LoaderScene";
+    
+    //Deep linking
+    public static string ComingFromDeepLink = "";
 
 }

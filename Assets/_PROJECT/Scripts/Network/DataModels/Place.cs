@@ -16,4 +16,5 @@ public class Place
     public string banner { get; set; }
     public string location { get; set; }
     public double stampPrice { get; set; }
+    public Sprite placeSprite;
 }

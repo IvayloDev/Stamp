@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviourSingletonPersistent<UIManager>
 {
     static PageEnum currentPage = PageEnum.Login;
-    public event Action<Place, Sprite> OnDisplayPlace;
+    public event Action<Place> OnDisplayPlace;
     
 
-    public void DisplayPlaceView(Place place, Sprite placeImage)
+    public void DisplayPlaceView(Place place)
     {
-        OnDisplayPlace?.Invoke(place, placeImage);
+        OnDisplayPlace?.Invoke(place);
     }
     
     public static void GoToPage(PageEnum page)
