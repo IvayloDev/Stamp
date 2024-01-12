@@ -12,6 +12,7 @@
             <e p="Home Page Graphics" t="Include">
               <e p="Nav Bar Graphics" t="Include" />
               <e p="Places Graphics" t="Include" />
+              <e p="Wallet Graphics" t="Include" />
             </e>
             <e p="Login Page Graphics" t="Include" />
             <e p="Ref Pics" t="Include" />
@@ -31,6 +32,9 @@
                 <e p="ActivePlaceScreen.cs" t="Include" />
                 <e p="PlacesController.cs" t="Include" />
               </e>
+              <e p="Wallet" t="Include">
+                <e p="WalletController.cs" t="Include" />
+              </e>
             </e>
             <e p="MonoBehaviourSingleton.cs" t="Include" />
             <e p="Network" t="Include">
@@ -42,8 +46,10 @@
               <e p="NetworkManager.cs" t="Include" />
             </e>
             <e p="Prefabs" t="Include">
+              <e p="CardComponent.cs" t="Include" />
               <e p="PlaceComponent.cs" t="Include" />
             </e>
+            <e p="Rotate.cs" t="Include" />
             <e p="SplashController.cs" t="Include" />
             <e p="Systems" t="Include">
               <e p="Client.cs" t="Include" />
