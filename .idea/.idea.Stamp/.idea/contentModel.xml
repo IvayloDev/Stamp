@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_PROJECT" t="Include">
+          <e p="Animations" t="Include" />
           <e p="Graphics" t="Include">
             <e p="Home Page Graphics" t="Include">
               <e p="Nav Bar Graphics" t="Include" />

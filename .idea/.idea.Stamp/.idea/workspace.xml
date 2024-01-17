@@ -22,18 +22,8 @@
     <list default="true" id="b668b17b-35fa-4afc-99ad-236980652183" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Stamp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Rubik-LightItalic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Rubik-LightItalic SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Rubik-Medium SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Rubik-Medium SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Rubik-MediumItalic SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Rubik-MediumItalic SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Rubik-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/Rubik-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Graphics/Home Page Graphics/Places Graphics/back button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Graphics/Home Page Graphics/Places Graphics/back button.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scenes/LoaderScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scenes/LoaderScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/NavBarNavigation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/NavBarNavigation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/NFCManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/NFCManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/distriqt/NFCUnity/NFCExample/NFCManifest.androidlib.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/distriqt/NFCUnity/NFCExample/NFCManifest.androidlib.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/Wallet/WalletController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/Wallet/WalletController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,12 +96,13 @@
         <option value="$PROJECT_DIR$/Assets/distriqt/NFCUnity/NFC/NFC.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/Places/PlacesController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/SplashController.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/DeepLinkingManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Systems/NFCManager.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Rotate.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/NavBarNavigation.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Prefabs/CardComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/SplashController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/SmoothScrollRect.cs" />
         <option value="$PROJECT_DIR$/Assets/_PROJECT/Scripts/Main Menu/Wallet/WalletController.cs" />
       </list>
     </option>
@@ -158,7 +149,7 @@
       <workItem from="1702043243119" duration="11192000" />
       <workItem from="1702574607509" duration="35833000" />
       <workItem from="1704903618160" duration="5306000" />
-      <workItem from="1705057030011" duration="6400000" />
+      <workItem from="1705057030011" duration="22362000" />
     </task>
     <servers />
   </component>
